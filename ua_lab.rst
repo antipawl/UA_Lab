@@ -52,7 +52,12 @@ $ sudo apt install nginx-plus-module-njs
 .. image:: images/ualab03.png
   :width: 800
   
+verify modules are loaded into nginx
 
+.. image:: images/ualab04.png
+  :width: 800
+  
+  
 
 
 
