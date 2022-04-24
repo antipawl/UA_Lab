@@ -1,13 +1,9 @@
-Class 1: Access on NGINX+ - Authentication for Web Access
+#Class 1: Access on NGINX+ - Authentication for Web Access
 =====================================================
 
 This Agility Lab covers the following topics:
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
 
-   module*/module*
 
 Expected time to complete: **1 hour**
 
