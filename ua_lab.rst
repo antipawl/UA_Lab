@@ -45,14 +45,16 @@ Installing Prerequisites:
 
 1) Start by installing the NGINX JavaScript module (njs) whixh is required for handling the interaction between NGINX Plus and the OpenID Connect provider (IdP). Install the njs module after installing NGINX Plus by running one of the following:
 
-Run the following on nginx box:
-
+**run the following on nginx box**
 $ sudo apt install nginx-plus-module-njs 
 
 .. image:: images/ualab03.png
   :width: 800
   
 verify modules are loaded into nginx
+
+**run the following command**
+$ sudo ls /etc/ssl/modules
 
 .. image:: images/ualab04.png
   :width: 800
