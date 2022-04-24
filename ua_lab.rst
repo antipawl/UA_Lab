@@ -1,4 +1,4 @@
-#Class 1: Access on NGINX+ - Authentication for Web Access
+# Class 1: Access on NGINX+ - Authentication for Web Access
 =====================================================
 
 This Agility Lab covers the following topics:
