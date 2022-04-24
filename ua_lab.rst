@@ -77,10 +77,29 @@ load_module modules/ngx_http_js_module.so;
 **save and exit file**
 
 3) Config the IdP Keycloak
-   a. Connect to container via udf connection methods
+   
+   i. Connect to container via udf connection methods
 
 .. image:: images/ualab06.png
-  :width: 800
-   
-   b. 
+   :width: 800
+
+Login to keycloak
+
+.. image:: images/ualab07.png
+   :width: 800
+
+Configuring Keycloak
+====================
+Create a Keycloak client for NGINX Plus in the Keycloak GUI:
+
+   In the left navigation column, click Clients. On the Clients page that opens, click the Create button in the upper right corner.
+
+   On the Add Client page that opens, enter or select these values, then click the  Save  button.
+
+.. image:: images/ualab08.png
+   :width: 800
+
+Client ID – agility2022
+
+Client Protocol – openid-connect.
 
