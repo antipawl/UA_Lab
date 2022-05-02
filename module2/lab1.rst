@@ -20,7 +20,7 @@ Install Nginx+ njs module
   .. image:: images/ualab03.png
    :width: 800
 
- #. verify modules are loaded into nginx with the below command.
+#. verify modules are loaded into nginx with the below command.
 
     .. code:: shell
    
@@ -29,6 +29,6 @@ Install Nginx+ njs module
     .. image:: images/ualab04.png
      :width: 800
 
- #. now you will need to load the module in the nginx.conf 
+#. now you will need to load the module in the nginx.conf 
 
 
