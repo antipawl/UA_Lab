@@ -12,7 +12,7 @@ Install Nginx+ njs module
 .. note:: Execute this command from the nginx webshell.
 
 .. code:: shell
-    sudo apt install nginx-plus-module-njs
+sudo apt install nginx-plus-module-njs
 
 .. image:: images/ualab03.png
   :width: 800
@@ -20,7 +20,7 @@ Install Nginx+ njs module
 #. verify modules are loaded into nginx with the below command.
 
 .. code:: shell
-    sudo ls /etc/ssl/modules
+sudo ls /etc/ssl/modules
 
 .. image:: images/ualab04.png
   :width: 800
