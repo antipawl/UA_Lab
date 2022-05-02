@@ -8,7 +8,7 @@ This lab will show how to enable single sign-on (SSO) for applications being pro
 Expected time to complete: **1 hour**
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    intro*
