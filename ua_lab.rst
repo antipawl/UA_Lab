@@ -31,6 +31,9 @@ High Level View of components in OpenID Connect Environment
   
 This implementation assumes the following environment:
 
+
+test
+
 The identity provider (IdP) supports OpenID Connect 1.0
 The authorization code flow is in use
 NGINX Plus is configured as a relying party
