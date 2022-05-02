@@ -24,7 +24,7 @@ The following components have been included in your lab environment:
 Lab Components
 ^^^^^^^^^^^^^^
 
-The following table lists VLANS, IP Addresses and Credentials for all
+The following table lists IP Addresses, Ports and Credentials for all
 components:
 
 Lab Setup
@@ -50,6 +50,22 @@ Lab Setup
      - 
    * - container/firefox
      - 10.1.1.5:5180
-     - 
+     -
+
+
+High Level View of auth flow for the lab Environment
+----------------------------------------------------
+
+.. image:: images/ualab01.svg
+  :width: 800
   
-This lab will show how to enable single sign-on (SSO) for applications being proxied by NGINX Plus. The solution uses OpenID Connect as the authentication mechanism, with Keycloak as the identity provider (IdP), and NGINX Plus as the relying party.
+This implementation assumes the following environment:
+
+The identity provider (IdP) supports OpenID Connect 1.0
+The authorization code flow is in use
+NGINX Plus is configured as a relying party
+The IdP knows NGINX Plus as a confidential client or a public client using PKCE
+With this environment, both the client and NGINX Plus communicate directly with the IdP at different stages during the initial authentication event.
+
+.. image:: images/ualab02.svg
+  :width: 800
