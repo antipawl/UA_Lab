@@ -17,8 +17,7 @@ Install Nginx+ njs module
 
     sudo apt install nginx-plus-module-njs
 
-  .. image:: images/ualab03.png
-   :width: 800
+  .. image:: UA_Lab/images/ualab03.png
 
  #. verify modules are loaded into nginx with the below command.
 
@@ -26,7 +25,7 @@ Install Nginx+ njs module
    
     sudo ls /etc/ssl/modules
 
-    .. image:: images/ualab04.png
+    .. image:: UA_Lab/images/ualab04.png
      :width: 800
 
  #. now you will need to load the module in the nginx.conf 
