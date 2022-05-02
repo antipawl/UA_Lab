@@ -6,7 +6,7 @@ This exercise will cover installing the Nginx JavaScript Module (njs) which is r
 Install Nginx+ njs module
 -------------------------
 
-#. to access the Nginx Instance locate the webshell option on the udf under the system nginx
+ #. to access the Nginx Instance locate the webshell option on the udf under the system nginx
   .. image:: /_static/9nginxwebshell.png
 
   .. note:: 
@@ -20,7 +20,7 @@ Install Nginx+ njs module
   .. image:: images/ualab03.png
    :width: 800
 
-#. verify modules are loaded into nginx with the below command.
+ #. verify modules are loaded into nginx with the below command.
 
     .. code:: shell
    
@@ -29,6 +29,6 @@ Install Nginx+ njs module
     .. image:: images/ualab04.png
      :width: 800
 
-#. now you will need to load the module in the nginx.conf 
+ #. now you will need to load the module in the nginx.conf 
 
 
